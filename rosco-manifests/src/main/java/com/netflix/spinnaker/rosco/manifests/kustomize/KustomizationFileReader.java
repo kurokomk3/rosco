@@ -67,7 +67,7 @@ public class KustomizationFileReader {
         break;
       } catch (Exception e) {
         log.error(
-            "kustomization file {} cannot be found at location", name, artifact.getReference());
+            "kustomization file {} cannot be found at location {}", name, artifact.getReference());
       }
     }
 
